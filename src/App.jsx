@@ -5,6 +5,13 @@ import './App.css'
 
 function ArrayDisplay2(){
   let arrayData =[ "heloo","hi","bywee"];
+  // ==> HTML code to replicate the nike 
+  // ==> CSS write by yourdrlf to replkicate hte nike 
+  // ==> to replace the use of css with tailWind CSS 
+  // ==> to understand how to use UseState
+  // to Understand how to use UseRef and other react hooks
+  // then constructr ypour own small apps and websites - spa ( single page applications )
+
 
   let jsxEle = arrayData.map((item , i)=>{
     return <p key={i}> {item}</p>
@@ -37,6 +44,7 @@ function App() {
     <p> array below : </p>
     { arrayDisplayelement }
     <ArrayDisplay2 />
+    <h2>Footer belowe to be made </h2>
     </>
 
   )
