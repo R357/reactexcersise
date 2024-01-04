@@ -30,6 +30,7 @@ function App() {
 
   return (
     <>
+    <h1> Displaying all datatypes</h1>
     <p>Integer is {integer_x}</p>
     <p>String is {string_x}</p>
     <p>Boolean is {Boolean_x}</p>
